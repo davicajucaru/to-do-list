@@ -1,0 +1,48 @@
+ul {
+  width: 100%;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  list-style: none;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  height: 55px;
+
+  padding: 0 0 0 25px;
+}
+
+#done {
+  border: solid 1px green;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: white;
+
+  margin: 0 5px 0 5px;
+}
+
+#done:hover {
+  background-color: green;
+}
+
+#delete {
+  border: solid 1px red;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: white;
+
+  margin: 0 5px 0 5px;
+}
+
+#delete:hover {
+  background-color: red;
+}
